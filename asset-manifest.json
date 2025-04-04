@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/MovieAPI/static/js/main.2f663123.js",
+    "main.js": "/MovieAPI/static/js/main.85f1dca8.js",
     "index.html": "/MovieAPI/index.html",
-    "main.2f663123.js.map": "/MovieAPI/static/js/main.2f663123.js.map"
+    "main.85f1dca8.js.map": "/MovieAPI/static/js/main.85f1dca8.js.map"
   },
   "entrypoints": [
-    "static/js/main.2f663123.js"
+    "static/js/main.85f1dca8.js"
   ]
 }
