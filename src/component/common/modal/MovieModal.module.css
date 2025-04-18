@@ -1,0 +1,135 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  padding: 4rem;
+  max-width: 800px;
+  width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.info ul {
+  flex-grow: 1;
+  max-width: 50%;
+}
+.info li + li {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.info h2 {
+  font-size: 2rem;
+  padding: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.info strong {
+  display: inline-block;
+  width: 100px;
+  padding-right: 10px;
+}
+
+.image {
+  width: 45%;
+}
+
+.image img {
+  width: 100%;
+  max-width: 240px;
+}
+
+.description strong {
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.description p {
+  padding: 10px;
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+.detail a {
+  padding: 4px 8px;
+  border-radius: 3px;
+  background-color: #ccc;
+  color: #111;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .info li + li {
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 782px) {
+  .modal {
+    padding: 20px;
+  }
+
+  .info {
+    display: block;
+  }
+  .info ul {
+    max-width: 100%;
+  }
+  .info li + li {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .info h2 {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .info strong {
+    width: 70px;
+  }
+
+  .image {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .description strong {
+    margin-bottom: 0;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .description p {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}

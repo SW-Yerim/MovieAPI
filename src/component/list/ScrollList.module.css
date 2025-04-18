@@ -1,0 +1,53 @@
+.sliderContainer {
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto 80px;
+}
+
+.sliderTitle {
+  margin: 10px;
+  font-size: 26px;
+}
+
+.card {
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 27vh;
+  border-radius: 10px;
+}
+
+.contents {
+  margin-top: 10px;
+}
+
+.contents p {
+  font-size: 0.85rem;
+  color: #ccc;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.contents .year {
+  color: #666;
+}
+
+/* ------------------ 태블릿 ------------------ */
+@media (max-width: 1024px) {
+  .sliderTitle {
+    font-size: 20px;
+  }
+
+  .card {
+    padding: 7px;
+  }
+
+  .image {
+    height: 25vh;
+  }
+}
+
+/* ------------------ 모바일 ------------------ */
+@media (max-width: 768px) {
+}
