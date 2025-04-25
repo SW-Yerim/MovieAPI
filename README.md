@@ -26,6 +26,7 @@ TMDB API를 활용하여 다양한 장르의 영화를 검색하고, 상세 정�
 ## 🔗 프로젝트 링크  
 - GitHub: [https://github.com/SW-Yerim/MovieAPI](https://github.com/SW-Yerim/MovieAPI)  
 - Live Demo: [https://sw-yerim.github.io/MovieAPI](https://sw-yerim.github.io/MovieAPI)
+- 프로젝트 상세내용 : [https://wooye.tistory.com/19]
 
 <br>
 
